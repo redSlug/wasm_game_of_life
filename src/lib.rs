@@ -10,6 +10,6 @@ extern {
 }
 
 #[wasm_bindgen]
-pub fn greet(name: &str) {
-    alert(&format!("Hello, {}!", name));
+pub fn greet(name1: &str, name2: &str) {
+    alert(&format!("Hello, {} and {}!", name1, name2));
 }
